@@ -1,0 +1,64 @@
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+#avatar{
+    width: 10%;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 75%;
+    width: 20%;
+    font-size:larger;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+}
+
+#password{
+    margin-bottom: 1%;
+    height: 75%;
+    width: 20%;
+    font-size: larger;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+#login{
+    height: 120%;
+    width: 5%;
+    font-size: large;
+}
+
+#web-name{
+    font-size: 200%;
+}
+
+#password{
+    border-color: rgb(234, 55, 55);
+    border-width: thick;
+    border-radius: 10px;
+}
+
+#email{
+    border-color: rgb(234, 55, 55);
+    border-width: thick;
+    border-radius: 10px;
+}
+
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
